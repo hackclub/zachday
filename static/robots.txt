@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://zachday.netlify.com/sitemap.xml

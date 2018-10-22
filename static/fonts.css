@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'GT Super';
+  src: url('/GT-Super-Display-Bold.eot');
+  src: url('/GT-Super-Display-Bold.eot') format('embedded-opentype'),
+    url('/GT-Super-Display-Bold.otf') format('opentype'),
+    url('/GT-Super-Display-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Eesti';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/GT-Eesti-Text-Book.eot');
+  src: url('/GT-Eesti-Text-Book.eot') format('embedded-opentype'),
+    url('/GT-Eesti-Text-Book.otf') format('opentype'),
+    url('/GT-Eesti-Text-Book.ttf') format('truetype');
+}
