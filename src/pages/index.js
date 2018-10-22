@@ -138,7 +138,7 @@ export default () => (
               <br />
               I’ve created a small photo album as a kind of year in review of
               what we have been doing. Each kid and parent who attends our club
-              meetings hears your story and we work to enrolling all of them in
+              meetings hears your story and we work on enrolling all of them in
               the mission that we share.
               <br />
               <br />
