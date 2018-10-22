@@ -156,6 +156,7 @@ export default () => (
             <Flex align="center" justify="center" wrap>
               <Avatar
                 src="https://files.slack.com/files-pri/T0266FRGM-FDJT5HZ24/cayce-avatar.jpg"
+                src="/contributions/cayce-avatar.jpg"
                 size={96}
                 mx={3}
               />
