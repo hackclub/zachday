@@ -25,9 +25,19 @@
     "video": "https://youtu.be/CD-Qq3ZvlGs"
   },
   {
+    "name": "Lachlan Campbell",
+    "avatar": "https://hackclub.com/team/lachlan.jpg",
+    "video": "https://youtu.be/F34MN9kJlJ4"
+  },
+  {
     "name": "Theo Bleier",
     "avatar": "https://github.com/tmb.png",
     "video": "https://youtu.be/KDRwGEwaHhQ"
+  },
+  {
+    "name": "Max Wofford",
+    "avatar": "https://hackclub.com/team/max.jpg",
+    "video": "https://youtu.be/KJPlPWq54Pg"
   },
   {
     "name": "Claire Wang",
@@ -43,5 +53,15 @@
     "name": "Connie Liu",
     "avatar": "https://ca.slack-edge.com/T0266FRGM-U1SPU5KV2-b76bd0a19e24-72",
     "video": "https://youtu.be/sU8_tbx-XPw"
+  },
+  {
+    "name": "Athul Blesson",
+    "avatar": "https://hackclub.com/team/athul.jpg",
+    "image": "/contributions/athul.png"
+  },
+  {
+    "name": "Nicholas Iten",
+    "avatar": "https://ca.slack-edge.com/T0266FRGM-U6YSDPWMA-aa828948e86d-72",
+    "image": "/contributions/nick.png"
   }
 ]

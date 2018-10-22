@@ -13,6 +13,7 @@ import { theme } from 'theme'
 import videos from '../../videos.json'
 import YouTubePlayer from 'react-player/lib/players/YouTube'
 import Layout from 'components/Layout'
+import Action from 'components/Action'
 import Footer from 'components/Footer'
 
 const Headline = styled(Heading.h2).attrs({
@@ -107,7 +108,8 @@ export default () => (
                 target="_blank"
                 style={{
                   backgroundImage: `url(${image})`,
-                  backgroundSize: 'cover'
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
                 }}
               />
             )}
@@ -117,6 +119,59 @@ export default () => (
             </Flex>
           </VideoContainer>
         ))}
+        <VideoContainer>
+          <Sheet
+            bg={theme.colors.snow}
+            color={theme.colors.slate}
+            p={[3, 4]}
+            align="left"
+          >
+            <Text fontSize={2}>
+              Zach,
+              <br />
+              <br />
+              Happy Birthday!! You have inspired us old farts to help in your
+              mission. Though the kids we reach through 4-H are few, we are
+              making an impact—one child at a time. We owe our inspiration to
+              your efforts and the community that you helped to create.
+              <br />
+              <br />
+              I’ve created a small photo album as a kind of year in review of
+              what we have been doing. Each kid and parent who attends our club
+              meetings hears your story and we work to enrolling all of them in
+              the mission that we share.
+              <br />
+              <br />
+              Though we haven’t started our meetings yet this year, I look
+              forward to continuing this work for the future!
+              <br />
+              <br />
+              Happy Birthday again and best wishes for the years to come!!
+              <br />
+              <br />
+              -Cayce and Roland.
+            </Text>
+          </Sheet>
+          <Box mx={[2, 4]}>
+            <Flex align="center" justify="center" wrap>
+              <Avatar
+                src="https://files.slack.com/files-pri/T0266FRGM-FDJT5HZ24/cayce-avatar.jpg"
+                size={96}
+                mx={3}
+              />
+              <Heading.h3 fontSize={3} mt={3} caps children="Cayce Beames" />
+            </Flex>
+            <Action
+              is="outline"
+              href="https://photos.app.goo.gl/eU1hzZq1XsU4xGcu8"
+              target="_blank"
+              bg={theme.colors.primary}
+              mt={4}
+              chevronRight
+              children="See the album"
+            />
+          </Box>
+        </VideoContainer>
       </Videos>
     </Box.section>
     <Footer />

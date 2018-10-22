@@ -8,7 +8,6 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "start": "yarn run dev",
     "fmt": "prettier \"{src/**,}/*.js\" --single-quote --no-semi --write"
   },
   "dependencies": {
