@@ -170,6 +170,26 @@ export default () => (
         </VideoContainer>
         <VideoContainer>
           <Sheet
+            bg={theme.colors.snow}
+            color={theme.colors.slate}
+            p={[3, 4]}
+            align="left"
+            style={{ minHeight: 'auto' }}
+          >
+            <Text fontSize={3}>
+              Hey Zach! Happy 21st birthday. The contributions you have made to
+              this community are absolutely incredible. You inspire me to work
+              hard, and I hope you understand how much of an impact you’ve had.
+              But anyway, you’re 21! Party it up, enjoy dude.
+            </Text>
+          </Sheet>
+          <Flex align="center" justify="center" wrap mx={[2, 4]}>
+            <Avatar src="https://github.com/qmogh.png" size={96} mx={3} />
+            <Heading.h3 fontSize={3} mt={3} caps children="Amogh Chaubey" />
+          </Flex>
+        </VideoContainer>
+        <VideoContainer>
+          <Sheet
             bg={theme.colors.smoke}
             color={theme.colors.slate}
             p={[3, 4]}
