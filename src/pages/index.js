@@ -154,12 +154,7 @@ export default () => (
           </Sheet>
           <Box mx={[2, 4]}>
             <Flex align="center" justify="center" wrap>
-              <Avatar
-                src="https://files.slack.com/files-pri/T0266FRGM-FDJT5HZ24/cayce-avatar.jpg"
-                src="/contributions/cayce-avatar.jpg"
-                size={96}
-                mx={3}
-              />
+              <Avatar src="/contributions/cayce-avatar.jpg" size={96} mx={3} />
               <Heading.h3 fontSize={3} mt={3} caps children="Cayce Beames" />
             </Flex>
             <Action
@@ -172,6 +167,27 @@ export default () => (
               children="See the album"
             />
           </Box>
+        </VideoContainer>
+        <VideoContainer>
+          <Sheet
+            bg={theme.colors.smoke}
+            color={theme.colors.slate}
+            p={[3, 4]}
+            align="left"
+            style={{ minHeight: 'auto' }}
+          >
+            <Text fontSize={3}>
+              Oh me oh my, I sure do love nuts. And I’m so happy it’s National
+              Nut Day. They’re so nutritious and great, I eat them all the time.
+              I saved my favorite ones for winter though by putting them in the
+              hollow under the old willow tree. I sure hope nobody finds them
+              there, cause I’d be really sad if someone took my favorite nuts.
+            </Text>
+          </Sheet>
+          <Flex align="center" justify="center" wrap mx={[2, 4]}>
+            <Avatar src="/contributions/squirrel.jpg" size={96} mx={3} />
+            <Heading.h3 fontSize={3} mt={3} caps children="#shipit squirrel" />
+          </Flex>
         </VideoContainer>
       </Videos>
     </Box.section>
