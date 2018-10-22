@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://zachday.now.sh/sitemap.xml
+Sitemap: https://zachday.netlify.com/sitemap.xml
